@@ -4,8 +4,9 @@ import './App.css';
 // import FormUsingFormTag from './FormUsingFormTag';
 // import ComplexInputForm from './ComplexInputForm';
 // import SpreadOperator from './SpreadOperator';
-import FormUsingSpreadOperator from './FormUsingSpreadOperator';
-
+// import FormUsingSpreadOperator from './FormUsingSpreadOperator';
+// import IncrementDecrement from './IncrementDecrement';
+import Accordian from './Accordian/Accordian';
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,10 @@ function App() {
       {/* <FormUsingFormTag/> */}
       {/* <ComplexInputForm/> */}
       {/* <SpreadOperator/> */}
-      <FormUsingSpreadOperator/>
+      {/* <FormUsingSpreadOperator/> */}
+      {/* <IncrementDecrement/> */}
+
+    <Accordian/>
     </div>
   );
 }
