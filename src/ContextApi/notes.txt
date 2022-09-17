@@ -1,0 +1,14 @@
+to send data from parent to particular child component.
+helps to access data at differnt lvl without passing props to every lvl
+
+create context --  
+provider --to pass data
+consumer -- to access data
+
+default export ek hi hota
+consumer only requires fn 
+ 
+
+another option is usecontext 
+used in comp c 
+agar sirf data pass krna hai to we can use usecontext instead ofredux
